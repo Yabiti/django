@@ -10,3 +10,5 @@ def yabu(request):
 
 def David(request):
     return HttpResponse("Hello, David")
+def greet(requeat, name):
+    return HttpResponse(f"hello, {name}")
