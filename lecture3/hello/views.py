@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse("Hello!")
 
 def yabu(request):
-    return HttpResponse("yabu")
+    return HttpResponse("Hello, yabu!")
