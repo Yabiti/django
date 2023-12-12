@@ -10,5 +10,5 @@ def yabu(request):
 
 def David(request):
     return HttpResponse("Hello, David")
-def render(request, "hello/greet.html"):
-    return 
+
+def greet(request, name):
