@@ -1,5 +1,5 @@
-from . import date time
-rom django.shortcuts import render
+import date time
+from django.shortcuts import render
 
 # Create your views here.
 def index(request):
