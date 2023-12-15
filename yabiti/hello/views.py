@@ -6,3 +6,5 @@ def index(request):
     return HttpResponse("Say Hello To This World!")
 def yabiti(request):
     return HttpResponse("Hello, yabiti!")
+def barni(request):
+    return HttpResponse("Hello, Barni!")
