@@ -8,3 +8,5 @@ def yabiti(request):
     return HttpResponse("Hello, yabiti!")
 def barni(request):
     return HttpResponse("Hello, Barni!")
+def greet(request):
+    return(f"Hello, {name}")
