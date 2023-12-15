@@ -3,4 +3,6 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Fuck This World!")
+    return HttpResponse("Say Hello To This World!")
+def yabiti(request):
+    return HttpResponse("Hello, yabiti!")
